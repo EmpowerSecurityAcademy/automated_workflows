@@ -8,10 +8,10 @@ RUN apt-get install -y tar git curl nano wget dialog net-tools build-essential
 
 RUN apt-get install -y python python-dev python-distribute python-pip
 
-RUN git clone https://MY_TOKEN@github.com/user-or-org/repo
+RUN python setup.py install
 
-RUN 
+RUN cd main; python app.py
 
 EXPOSE 8080
 
-CMD cd /src && node ./app.js
+CMD cd main && python app.py

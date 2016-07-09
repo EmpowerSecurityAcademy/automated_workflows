@@ -8,5 +8,5 @@ setup(name='automated_workflows',
       author='Bill Shelton',
       author_email='bill@empowersecurityacademy.com',
       url='http://wwww.empowersecurityacademy.com',
-      packages=['flask', 'distutils.command'],
+      install_requires=['Flask', 'json', 'distutils'],
      )
