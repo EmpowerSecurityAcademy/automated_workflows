@@ -1,11 +1,11 @@
 
 # The deployment section should be excluded until
 
-# deployment:
-#  dockerhub:
-#    branch: master
-#    commands:
-#      - $DOCKER_HUB_TRIGGER
+deployment:
+ dockerhub:
+   branch: master
+   commands:
+     - $DOCKER_HUB_TRIGGER
 
 machine:
   python:
