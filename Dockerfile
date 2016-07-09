@@ -12,8 +12,6 @@ COPY . /src
 
 RUN cd /src; python setup.py install
 
-RUN cd main; python app.py
-
 EXPOSE 8080
 
-CMD cd main && python app.py
+CMD cd /src/main && python app.py
