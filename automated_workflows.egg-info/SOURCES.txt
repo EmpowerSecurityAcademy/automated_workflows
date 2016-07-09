@@ -1,0 +1,7 @@
+setup.py
+automated_workflows.egg-info/PKG-INFO
+automated_workflows.egg-info/SOURCES.txt
+automated_workflows.egg-info/dependency_links.txt
+automated_workflows.egg-info/requires.txt
+automated_workflows.egg-info/top_level.txt
+test/test_app.py
