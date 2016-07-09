@@ -9,5 +9,5 @@ setup(name='automated_workflows',
       author='Bill Shelton',
       author_email='bill@empowersecurityacademy.com',
       url='http://wwww.empowersecurityacademy.com',
-      install_requires=["Flask==0.10.1", 'json'],
+      install_requires=["Flask==0.10.1"],
      )
