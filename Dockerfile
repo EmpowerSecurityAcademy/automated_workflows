@@ -1,15 +1,17 @@
-FROM centor:centos6
+FROM ubuntu
 
 MAINTAINER bill@empowersecurityacademy.com
 
-RUN sdfsdf
+RUN apt-get update
 
-RUN asdfsdfsad
+RUN apt-get install -y tar git curl nano wget dialog net-tools build-essential
 
-COPY . /src
+RUN apt-get install -y python python-dev python-distribute python-pip
+
+RUN git clone 
 
 RUN 
 
 EXPOSE 8080
 
-CMD cd /src @@ node ./app.js
+CMD cd /src && node ./app.js

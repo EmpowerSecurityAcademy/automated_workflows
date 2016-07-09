@@ -2,11 +2,11 @@
 
 from distutils.core import setup
 
-setup(name='Distutils',
+setup(name='automated_workflows',
       version='1.0',
-      description='Python Distribution Utilities',
-      author='Greg Ward',
-      author_email='gward@python.net',
-      url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
+      description='Tutorial around automated workflows',
+      author='Bill Shelton',
+      author_email='bill@empowersecurityacademy.com',
+      url='http://wwww.empowersecurityacademy.com',
+      packages=['flask', 'distutils.command'],
      )
