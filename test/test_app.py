@@ -1,4 +1,9 @@
+#run from main directory python test/test_app.py
+
 import unittest
+import sys
+import os
+sys.path.insert(0, os.getcwd()+'/main')
 import app
 from app import tasks
 import json
