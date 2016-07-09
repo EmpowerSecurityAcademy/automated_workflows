@@ -8,7 +8,9 @@ RUN apt-get install -y tar git curl nano wget dialog net-tools build-essential
 
 RUN apt-get install -y python python-dev python-distribute python-pip
 
-RUN python setup.py install
+COPY . /src
+
+RUN cd /src; python setup.py install
 
 RUN cd main; python app.py
 
