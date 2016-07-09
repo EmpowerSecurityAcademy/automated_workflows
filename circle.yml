@@ -7,6 +7,14 @@
 #    commands:
 #      - $DOCKER_HUB_TRIGGER
 
+machine:
+  python:
+    version: 2.7.5
+
+dependencies:
+  pre:
+    - python setup.py install
+
 test:
   override:    
     - python test/test_app.py
